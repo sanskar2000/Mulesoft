@@ -1,0 +1,10 @@
+CREATE TABLE movies (
+  Name TEXT NOT NULL,
+  Actor TEXT NOT NULL, 
+  Actress TEXT NOT NULL, 
+  Director TEXT NOT NULL, 
+  Year_of_release NOT NULL
+);
+INSERT INTO movies VALUES ('Maari', 'Dhanush', 'Kajal Aggarwal', 'Balaji Mohan', 2015),('Baahubali 2: The Conclusion', 'Prabhas ', 'Shobu Yarlagadda','Boyapati Srinu',2018),('Baahubali','Prabhas','Tamannaah','S. S. Rajamouli',2015);
+SELECT * FROM movies;
+SELECT Name FROM movies where Actor="Dhanush";
